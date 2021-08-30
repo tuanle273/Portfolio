@@ -79,6 +79,12 @@
     }
 }
 
+video {
+    /* override other styles to make responsive */
+    width: 60% !important;
+    height: auto !important;
+}
+
 body {
     margin: 0;
     font-family: var(--bs-body-font-family);
